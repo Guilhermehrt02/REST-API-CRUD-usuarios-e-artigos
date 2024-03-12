@@ -8,7 +8,7 @@ Base = declarative_base()
 
 class Settings(BaseSettings):
     API_V1_STR: str = '/api/v1'
-    DB_URL: str = 'postgresql+asyncpg://postgres:Guilherme02@localhost:5432/faculdade'
+    DB_URL: str = 'postgresql+asyncpg://guilherme:Guilherme02@localhost:5432/faculdade'
     DBBaseModel: Type[Base] = Base  
 
     #segredo da api para gerar um hash

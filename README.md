@@ -50,12 +50,12 @@ Remove um usuário do banco de dados.
 uvicorn main:app --reload
 ```
 ## Estrutura do Projeto
-1. **app/**
-- **__init__.py:** Inicialização da aplicação.
-- **main.py:** Configuração principal da API.
-- **config.py:** Configurações da aplicação, incluindo conexão com o banco de dados.
-- **models/:** Modelos de dados da aplicação.
-- **schemas/:** Esquemas de validação de entrada e saída.
-- **routers/:** Roteadores (API endpoints) da aplicação.
-- **core/:** Módulos principais da aplicação, como autenticação e segurança.
-- **dependencies/:** Dependências da aplicação, como sessão do banco de dados e autenticação do usuário.
+- **app/**
+  - **__init__.py:** Inicialização da aplicação.
+  - **main.py:** Configuração principal da API.
+  - **config.py:** Configurações da aplicação, incluindo conexão com o banco de dados.
+  - **models/:** Modelos de dados da aplicação.
+  - **schemas/:** Esquemas de validação de entrada e saída.
+  - **routers/:** Roteadores (API endpoints) da aplicação.
+  - **core/:** Módulos principais da aplicação, como autenticação e segurança.
+  - **dependencies/:** Dependências da aplicação, como sessão do banco de dados e autenticação do usuário.

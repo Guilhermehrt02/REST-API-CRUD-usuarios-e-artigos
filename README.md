@@ -51,11 +51,11 @@ uvicorn main:app --reload
 ```
 ## Estrutura do Projeto
 1. **app/**
-1.1. **__init__.py:** Inicialização da aplicação.
-1.2. **main.py:** Configuração principal da API.
-1.3. **config.py:** Configurações da aplicação, incluindo conexão com o banco de dados.
-1.4. **models/:** Modelos de dados da aplicação.
-1.5. **schemas/:** Esquemas de validação de entrada e saída.
-1.6. **routers/:** Roteadores (API endpoints) da aplicação.
-1.7. **core/:** Módulos principais da aplicação, como autenticação e segurança.
-1.8. **dependencies/:** Dependências da aplicação, como sessão do banco de dados e autenticação do usuário.
+- **__init__.py:** Inicialização da aplicação.
+- **main.py:** Configuração principal da API.
+- **config.py:** Configurações da aplicação, incluindo conexão com o banco de dados.
+- **models/:** Modelos de dados da aplicação.
+- **schemas/:** Esquemas de validação de entrada e saída.
+- **routers/:** Roteadores (API endpoints) da aplicação.
+- **core/:** Módulos principais da aplicação, como autenticação e segurança.
+- **dependencies/:** Dependências da aplicação, como sessão do banco de dados e autenticação do usuário.
